@@ -1,0 +1,96 @@
+/* 样式的重置 */
+body, html, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, header, menu, section, p, input, td, th, ins {
+  padding: 0;
+  margin: 0;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+i, em {
+  font-style: normal;
+}
+
+input, textarea, button, select, a {
+  outline: none;
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+/* 全局样式 */
+
+body {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100%;
+}
+
+.app-content-body {
+  padding: 20px;
+  background: #fff;
+  overflow: auto;
+}
+
+/* ant-drawer抽屉样式 */
+.ant-drawer-content-wrapper {
+  width: 200px !important;
+}
+.ant-drawer-body {
+  padding: 0 !important;
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar-track-piece {
+  background-color: rgba(249, 250, 254, 1);
+  -webkit-border-radius: 5px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: #eee;
+  -webkit-border-radius: 6px;
+  outline: 2px solid #fff;
+  outline-offset: -2px;
+  border: 2px solid #fff;
+  filter: alpha(opacity = 50);
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+}
+::-webkit-scrollbar-thumb:hover {
+  height: 50px;
+  background-color: #878987;
+  -webkit-border-radius: 6px;
+}
+
+.app-sider ::-webkit-scrollbar-thumb {
+  /* background-color: #f00; */
+}
